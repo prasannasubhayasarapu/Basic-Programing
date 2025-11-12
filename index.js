@@ -8,3 +8,10 @@ function isPrime(num) {
   }
   return true;
 }
+function evenOdd(nums) {
+if(nums % 2 === 0){ 
+    return "Even";
+} else {
+    return "Odd";
+}   
+}
